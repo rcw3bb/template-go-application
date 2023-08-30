@@ -1,3 +1,4 @@
 .idea/
 logs/
 go-app-template.iml
+*.exe
