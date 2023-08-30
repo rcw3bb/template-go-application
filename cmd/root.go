@@ -12,11 +12,8 @@ import (
 var (
 	rootCmd = &cobra.Command{
 		Use:   appinfo.Application,
-		Short: "A go app template",
-		Long: `A Fast and Flexible Static Site Generator built with
-                love by spf13 and friends in Go.
-                Complete documentation is available at https://gohugo.io/documentation/`,
-		Run: rootLogic,
+		Short: appinfo.Application + " v" + appinfo.Version,
+		Run:   rootLogic,
 	}
 )
 
