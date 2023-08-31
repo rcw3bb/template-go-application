@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"go-app-template/config"
 	"go-app-template/logger"
 )
 
@@ -19,7 +18,6 @@ var (
 )
 
 func helloLogic(cmd *cobra.Command, args []string) {
-	logger.Info("Environment " + config.Environment)
 	logger.Info("Hello " + objHello.name)
 }
 
