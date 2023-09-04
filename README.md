@@ -1,6 +1,6 @@
 # Go Application Template
 
- A template for building go application.
+ A template for building go cli application.
 
 ## Usage
 
@@ -71,7 +71,7 @@ In this template, the config package reads the configuration files in the **conf
 * application.properties
 * application-test.properties
 
-By default only the application.properties file is loaded. But when the test is passed in as environment using the environment flag *(e.g. **-e test** or **--environment test**)*, it will also load the application-test.properties. This will override the values found in application.properties. 
+By default, only the application.properties file is loaded. But when the test is passed in as environment using the environment flag *(e.g. **-e test** or **--environment test**)*, it will also load the application-test.properties. This will override the values found in application.properties. 
 
 Use the following syntax to create an environment based configuration:
 
