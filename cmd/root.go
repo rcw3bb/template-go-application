@@ -1,3 +1,5 @@
+// Package cmd must hold all the command implementation.
+// Author: Ron Webb
 package cmd
 
 import (

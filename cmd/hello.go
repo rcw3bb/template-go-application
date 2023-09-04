@@ -1,5 +1,10 @@
 package cmd
 
+/*
+A sample command implementation.
+Author: Ron Webb
+*/
+
 import (
 	"github.com/spf13/cobra"
 	"go-app-template/logger"

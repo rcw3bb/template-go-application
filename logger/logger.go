@@ -1,3 +1,5 @@
+// Package logger provides the logging capability of the application.
+// Author: Ron Webb
 package logger
 
 import (

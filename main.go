@@ -1,3 +1,5 @@
+// Package main is the entry point of the application.
+// Author: Ron Webb
 package main
 
 import (

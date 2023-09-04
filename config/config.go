@@ -1,3 +1,5 @@
+// Package config provides the capability to read configuration files.
+// Author: Ron Webb
 package config
 
 import (
