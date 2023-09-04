@@ -31,9 +31,11 @@ func rootLogic(cmd *cobra.Command, args []string) {
 
 	if version {
 		logger.Info(appName + " v" + appinfo.Version)
-	} else {
-		logger.Info(appName)
+		return
 	}
+
+	// Default logic.
+	logger.Info(appName)
 
 	prop1 := config.GetString("prop1")
 	logger.Info("Prop1=" + prop1)
